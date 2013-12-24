@@ -1,6 +1,7 @@
 package com.karogui.meucachorro.classes.genericas;
 
 //teste para commit github
+//editado pelo githb
 
 import android.text.Editable;
 import android.text.TextWatcher;
