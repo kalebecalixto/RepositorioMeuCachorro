@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="textLabel">19sp</dimen>
+    <dimen name="distanciaLabel">5dp</dimen>
+    <dimen name="campoData">130dp</dimen>
+    <dimen name="alturaCampo">50dp</dimen>
+    <dimen name="text_size_controles">22sp</dimen>
+    <dimen name="text_size_textoinicial">27sp</dimen>
+    <dimen name="text_size_label">18sp</dimen>
+    <dimen name="progressbar_size">48dip</dimen>
+    <dimen name="text_carregando_pendencias_size">13sp</dimen>
+    <dimen name="text_size_row_tarefa_descricao">17sp</dimen>
+    <dimen name="text_size_header_tarefa_data">14sp</dimen>
+    <dimen name="text_size_row_tarefa_hora">15sp</dimen>
+    <dimen name="text_size_row_tarefa_status">15sp</dimen>
+    <dimen name="text_size_row_processo_nome">17sp</dimen>
+    <dimen name="text_size_row_processo_num_execucoes">15sp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+
+</resources>

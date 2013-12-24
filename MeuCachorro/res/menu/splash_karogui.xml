@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/abriSobre"
+        android:orderInCategory="100"
+        android:title="@string/sobre"/>
+    <item
+        android:id="@+id/abriAjuda"
+        android:orderInCategory="100"
+        android:title="@string/ajuda"/>
+
+</menu>

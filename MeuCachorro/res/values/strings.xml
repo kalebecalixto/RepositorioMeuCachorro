@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Meu Cachorro</string>
+    <string name="action_settings">Settings</string>
+    <string name="sobre">Creditos</string>
+    <string name="ajuda">Ajuda</string>
+    <string name="title_activity_tela_inicial">Meu Cachorro</string>
+    <string name="txtAddPet">Adicionar Novo Filhote</string>
+    <string name="title_activity_tela_cadastro_pet">TelaCadastroPetActivity</string>
+    <string name="lbNomePet">Nome</string>
+    <string name="lbDtNascPet">Data Nascimento</string>
+    <string name="lbSexoPet">Sexo</string>
+    <string name="lbRacaPet">Raça</string>
+    <string name="femePet">Fêmea</string>
+    <string name="mascPet">Macho</string>
+    <string name="lbCorPet">Cor</string>
+    <string name="save_label">Salvar</string>
+    <string name="title_activity_ajuda_tela_inicial">Ajuda Tela Inicial</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="titleHelp">Ajuda</string>
+    <string name="descrAjudaInicial">        Está é sua tela inicial, através dela é possível incluir um Novo Pet ou selecionar um que está cadastrado para alterar seus dados, verificar o seu calendário de Vacinas, entre outro recursos do aplicativo Meu Pet.
+		Quando se inicia o aplicativo pela primeira vez está será sua tela de partida para o APP.
+		Em seu primeiro acesso, não irá ter nenhum Pet cadastrado, sendo necessário clicar no botão no Menu “Adicionar Pet” para cadastrar seu Pet.
+		Caso você já tenha um Pet cadastrado e deseja acessar seus dados, basta selecioná-lo na lista para navegar para a próxima tela que irá ter outros recursos referente a ele.</string>
+    <string name="title_activity_tela_main">Tela Inicial</string>
+    <string name="title_activity_tela_listar">Pets Cadastrados</string>
+    <string name="title_activity_tela_select_especie">Escolha uma Especie</string>
+    <string name="title_activity_progress_bar">Carregando Dados</string>
+    <string name="title_activity_tela_manut_pet">Dados Pet</string>
+
+</resources>

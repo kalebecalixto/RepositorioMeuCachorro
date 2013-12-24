@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.karogui.meucachorro"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.karogui.meucachorro.ui.SplashKaroguiActivityRunable"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.karogui.meucachorro.ui.TelaInicialActivity"
+            android:label="@string/title_activity_tela_inicial" >
+        </activity>
+        <activity
+            android:name="com.karogui.meucachorro.ui.TelaCadastroPetActivity"
+            android:label="@string/title_activity_tela_cadastro_pet" >
+        </activity>
+        <activity
+            android:name="com.karogui.meucachorro.ui.ajuda.AjudaTelaInicialActivity"
+            android:label="@string/title_activity_ajuda_tela_inicial" >
+        </activity>
+        <activity
+            android:name="com.karogui.meucachorro.ui.TelaMainActivity"
+            android:label="@string/title_activity_tela_main" >
+        </activity>
+        <activity
+            android:name="com.karogui.meucachorro.ui.TelaListarActivity"
+            android:label="@string/title_activity_tela_listar" >
+        </activity>
+        <activity
+            android:name="com.karogui.meucachorro.ui.TelaSelectEspecieActivity"
+            android:label="@string/title_activity_tela_select_especie" >
+        </activity>
+        <activity
+            android:name="com.karogui.meucachorro.ui.ProgressBarActivity"
+            android:label="@string/title_activity_progress_bar" >
+        </activity>
+        <activity
+            android:name="com.karogui.meucachorro.ui.TelaManutPetActivity"
+            android:label="@string/title_activity_tela_manut_pet" >
+        </activity>
+    </application>
+
+</manifest>

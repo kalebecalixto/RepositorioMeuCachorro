@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/abriSobre"
+        android:orderInCategory="90"
+        android:title="@string/sobre"/>
+    <item
+        android:id="@+id/abriAjuda"
+        android:orderInCategory="100"
+        android:title="@string/ajuda"/>
+    
+    <item
+        android:id="@+id/newPet"
+        android:icon="@drawable/ic_launcher"
+        android:orderInCategory="10"
+        android:showAsAction="always|withText"
+        android:title="Adicionar Filhote"/>
+
+</menu>

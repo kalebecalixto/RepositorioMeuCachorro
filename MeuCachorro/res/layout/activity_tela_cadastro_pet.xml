@@ -1,0 +1,142 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".TelaCadastroPetActivity" >
+
+    <ViewFlipper
+        android:id="@+id/vfTrocaCadastroPet"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical" >
+
+            <ScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:fillViewport="true" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:text="@string/lbNomePet" />
+
+                    <EditText
+                        android:id="@+id/nomePet"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:layout_marginTop="5dip"
+                        android:inputType="text"
+                        android:singleLine="true" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:layout_marginTop="10dip"
+                        android:text="@string/lbDtNascPet" />
+
+                    <EditText
+                        android:id="@+id/dtNascPet"
+                        android:layout_width="@dimen/campoData"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:layout_marginTop="5dip"
+                        android:inputType="date"
+                        android:singleLine="true" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:layout_marginTop="10dip"
+                        android:text="@string/lbSexoPet" />
+
+                    <RadioGroup
+                        android:id="@+id/rdoSexo"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dip"
+                        android:orientation="horizontal" >
+
+                        <RadioButton
+                            android:id="@+id/M"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checked="true"
+                            android:paddingRight="50sp"
+                            android:text="@string/mascPet" />
+
+                        <RadioButton
+                            android:id="@+id/F"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/femePet" />
+                    </RadioGroup>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:layout_marginTop="10dip"
+                        android:text="@string/lbRacaPet" />
+
+                    <Spinner
+                        android:id="@+id/spnRaca"
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/alturaCampo"
+                        android:layout_marginTop="5dip" >
+                    </Spinner>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:layout_marginTop="10dip"
+                        android:text="@string/lbCorPet" />
+
+                    <Spinner
+                        android:id="@+id/spnCor"
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/alturaCampo"
+                        android:layout_marginTop="5dip" >
+                    </Spinner>
+
+                    <Button
+                        android:id="@+id/btnSalvar"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dip"
+                        android:layout_marginRight="10dip"
+                        android:layout_marginTop="5dip"
+                        android:layout_weight="1"
+                        android:background="@drawable/buttoncinza"
+                        android:text="@string/save_label"
+                        android:textColor="@drawable/buttoncinza"
+                        android:textSize="@dimen/text_size_controles" >
+                    </Button>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </ViewFlipper>
+
+</RelativeLayout>
