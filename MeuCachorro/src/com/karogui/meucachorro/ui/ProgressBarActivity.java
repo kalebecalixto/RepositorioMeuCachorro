@@ -1,15 +1,10 @@
 package com.karogui.meucachorro.ui;
 
-import com.karogui.meucachorro.R;
-import com.karogui.meucachorro.R.layout;
-import com.karogui.meucachorro.R.menu;
-
-import android.os.Bundle;
-import android.os.Handler;
+import android.R;
 import android.app.Activity;
 import android.content.Intent;
-import android.util.Log;
-import android.view.Menu;
+import android.os.Bundle;
+import android.os.Handler;
 import android.widget.ProgressBar;
 
 public class ProgressBarActivity extends Activity implements Runnable{

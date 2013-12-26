@@ -1,11 +1,8 @@
 package com.karogui.meucachorro.ui.ajuda;
 
-import com.karogui.meucachorro.R;
-import com.karogui.meucachorro.R.layout;
-import com.karogui.meucachorro.R.menu;
-
-import android.os.Bundle;
+import android.R;
 import android.app.Activity;
+import android.os.Bundle;
 import android.view.Menu;
 
 public class AjudaTelaInicialActivity extends Activity {
